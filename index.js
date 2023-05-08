@@ -8,6 +8,7 @@ btn.addEventListener("click", () => {
                             <p class="col-10">${input.value}</p>
                             <button onclick="this.parentElement.style.display = 'none';" class="btn btn-close ms-auto"></button>
                             </div>`
+    input.value = "";
 
     }
 })
